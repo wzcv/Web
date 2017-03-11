@@ -58,7 +58,7 @@ KeyboardInputManager.prototype.listen = function () {
   hintButton.addEventListener('click', function(e) {
     e.preventDefault();
     var feedbackContainer  = document.getElementById('feedback-container');
-    feedbackContainer.innerHTML = '<img src=img/spinner.gif />';
+    feedbackContainer.innerHTML = '<img src="img/spinner.gif">';
     self.emit('think');
   });
 

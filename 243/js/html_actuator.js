@@ -143,9 +143,9 @@ HTMLActuator.prototype.showSocialButtons = function () {
     var html =
                 '<div id="social-buttons" class="fadeable fade">'
 	    + '<ul class="social">'
-            + '<li class="reddit"><div class="fb-like" data-href="http://243game.com" data-layout="box_count" data-width="50" ></div></li>'
+            + '<li class="reddit"><div class="fb-like" data-href="http://243game.com" data-layout="box_count" data-width="50"></div></li>'
             + '<li class="gplus"><div class="g-plusone-frame"><div class="g-plusone" data-size="tall" data-href="http://243game.com/"></div></div></li>'
-            + '<li class="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://243game.com/" data-text="'+ text +'" data-count="vertical" data-hashtags="243game" >Tweet</a></li></ul>'
+            + '<li class="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://243game.com/" data-text="'+ text +'" data-count="vertical" data-hashtags="243game" target="_blank" rel="external">Tweet</a></li></ul>'
             + '<div id="fb-root"></div>'
             + '</div>';
     document.getElementById( 'viewport' ).insertAdjacentHTML( 'beforeEnd', html );
